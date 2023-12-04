@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: 2023 The PwrCtrl Developers
+#
+# SPDX-License-Identifier: Apache-2.0
+
+[workspace]
+members = [
+    "bin/proxy",
+    "bin/test-tool",
+    "lib/common"
+]
+default-members = ["lib/common", "bin/proxy"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
+version = "0.1.0"
+rust-version = "1.69.0"
+license = "Apache-2.0"
+readme = "/README.md"
+repository = "https://github.com/shymega/exchanger.git"
+homepage = "https://github.com/shymega/exchanger"
+edition = "2018"
+categories = ["cloud", "email"]
+keywords = ["imap", "dav", "smtp", "caldav", "carddav", "exchange", "cloud", "email"]
+
+[workspace.dependencies]
+anyhow = { version = "1.0.75", default-features = false }
+thiserror = "1.0.51"
+
+[profile.dev]
+lto = true
+opt-level = 3
+codegen-units = 1
+debug = true
+
+[profile.dev.package."*"]
+codegen-units = 1
+opt-level = 3
+debug = true
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+debug = false
+
+[profile.release.package."*"]
+codegen-units = 1
+opt-level = 3
+debug = false

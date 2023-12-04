@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Exchanger
+Upstream-Contact: Dom Rodriguez (shymega) <shymega+exchanger@shymega.org.uk>
+Source: https://github.com/shymega/exchanger
+
+Files: lib/** bin/** Cargo.* flake.* .gitignore
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchanger@shymega.org.uk>
+License: Apache-2.0
+
+Files: .github/** .devcontainer/* Dockerfile docker-compose.yml
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchanger@shymega.org.uk>
+License: CC0-1.0
+
+Files: *.md
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchanger@shymega.org.uk>
+License: CC0-1.0
