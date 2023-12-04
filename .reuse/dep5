@@ -1,0 +1,16 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Exchange Mail Proxy
+Upstream-Contact: Dom Rodriguez (shymega) <shymega+exchange-mail-proxy@shymega.org.uk>
+Source: https://github.com/shymega/exchange-mail-proxy
+
+Files: src/** Cargo.* flake.* .gitignore
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchange-mail-proxy@shymega.org.uk>
+License: AGPL-3.0-only
+
+Files: .github/** .devcontainer/* Dockerfile docker-compose.yml
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchange-mail-proxy@shymega.org.uk>
+License: CC0-1.0
+
+Files: *.md
+Copyright: 2023 Dom Rodriguez (shymega) <shymega+exchange-mail-proxy@shymega.org.uk>
+License: CC0-1.0
