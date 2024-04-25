@@ -26,6 +26,7 @@ keywords = ["imap", "dav", "smtp", "caldav", "carddav", "exchange", "cloud", "em
 [workspace.dependencies]
 anyhow = { version = "1.0.75", default-features = false }
 thiserror = "1.0.51"
+exchange-rs = { git = "https://github.com/neeml/exchange-rs", branch = "main" }
 
 [profile.dev]
 lto = true
