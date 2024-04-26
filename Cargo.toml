@@ -28,8 +28,8 @@ default = []
 test-tool = []
 
 [dependencies]
-anyhow = { version = "1.0.75", default-features = false }
-thiserror = "1.0.51"
+anyhow = { version = "1.0.82", default-features = false }
+thiserror = "1.0.59"
 exchange-rs = { git = "https://github.com/neeml/exchange-rs", branch = "main" }
 
 [profile.dev]
