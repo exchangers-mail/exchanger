@@ -71,7 +71,7 @@ checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 [[package]]
 name = "exchange-rs"
 version = "0.1.0"
-source = "git+https://github.com/neeml/exchange-rs?branch=main#0f6de6b2cc117e97480fbd878b7494c8bfb073d1"
+source = "git+https://github.com/neeml/exchange-rs?branch=main#9e9965c3c7d275fc717408c610920e48b168a199"
 dependencies = [
  "tokio",
 ]
