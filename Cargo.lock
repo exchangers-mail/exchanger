@@ -495,7 +495,7 @@ dependencies = [
 [[package]]
 name = "exchange-rs"
 version = "0.1.0"
-source = "git+https://github.com/neeml/exchange-rs?branch=main#6d11a001c4b61232f9a94a0d4d877694a9f1f89f"
+source = "git+https://github.com/neeml/exchange-rs?branch=main#a89f0a9d75a1dc176f55f1b250d66634ab98fef3"
 dependencies = [
  "anyhow",
  "melib",
