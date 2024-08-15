@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 The PwrCtrl Developers
+# SPDX-FileCopyrightText: 2024 The Exchangers MailDevelopers
 #
 # SPDX-License-Identifier: Apache-2.0
 
@@ -6,12 +6,12 @@
 authors = ["Dom Rodriguez <shymega@shymega.org.uk>"]
 categories = ["cloud", "email"]
 edition = "2018"
-homepage = "https://github.com/neeml/exchanger"
+homepage = "https://github.com/exchangers-mail/exchanger"
 keywords = ["imap", "dav", "smtp", "caldav", "carddav", "exchange", "cloud", "email"]
 license = "Apache-2.0"
 name = "exchanger"
 readme = "README.md"
-repository = "https://github.com/neeml/exchanger.git"
+repository = "https://github.com/exchangers-mail/exchanger.git"
 rust-version = "1.69.0"
 version = "0.1.0"
 
@@ -30,7 +30,7 @@ test-tool = []
 [dependencies]
 anyhow = { version = "1.0.86", default-features = false }
 thiserror = "1.0.63"
-exchange-rs = { git = "https://github.com/neeml/exchange-rs", branch = "main" }
+exchange-rs = { git = "https://github.com/exchangers-mail/exchange-rs", branch = "main" }
 
 [profile.dev]
 lto = true
