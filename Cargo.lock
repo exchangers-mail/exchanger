@@ -769,7 +769,7 @@ dependencies = [
 [[package]]
 name = "exchange-rs"
 version = "0.1.0"
-source = "git+https://github.com/exchangers-mail/exchange-rs?branch=main#9ee5b553587c5e86e833d3d07fd24a90e83ea9ce"
+source = "git+https://github.com/exchangers-mail/exchange-rs?branch=main#83bbdba88bc776f83e172b9f30dfaed4a4f4f547"
 dependencies = [
  "anyhow",
  "file-format",
